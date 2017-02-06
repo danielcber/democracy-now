@@ -1,0 +1,64 @@
+#listen {
+	background-color: #ECEEEF;
+	height: 50px;
+	margin-top: 20px;
+	font-family: 'Roboto', sans-serif;
+	vertical-align: middle;
+	min-width: 100%;
+	padding: 15px 15px 0px 15px;
+}
+
+#listen img {
+	height: 15px;
+	margin-left: 10px;
+}
+
+#listen	span {
+	float: right;
+}
+
+#dailydigest {
+	margin-top: 20px;
+}
+
+#specials {
+	margin-top: 20px;
+}
+
+ul {
+	list-style-type: none;
+	height: auto;
+	width: auto;
+	padding-left: 0px;
+}
+
+#specialimg {
+	width: 100%;
+	height: auto;
+}
+
+#specialname {
+	margin-top: 0px;
+	background-color: #ECEEEF;
+	text-align: center;
+	font-family: 'Roboto', serif;
+	font-weight: 700;
+	color: black;
+	padding: 0px 10px 0px 10px;
+}
+
+#specialreport span{
+	color: white;
+	background-color: #C42126;
+	margin-top: -13px;
+	padding: 8px 10px 8px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: center;
+	float: center;
+}
+
+#specialname p {
+	margin-top: 0px;
+	padding: 10px 5px 10px 5px;
+}

@@ -1,0 +1,83 @@
+<table id="submain">
+		<tbody>
+		<tr>
+			<td class="squareone">
+			<a [routerLink]="['/headline/2']">
+				<img [src]="headlines[1]?.image">
+				<h6>{{headlines[1]?.date}}</h6>
+				<h4>{{headlines[1]?.name}}</h4>
+			</a>
+			</td>
+
+			<td class="squareone">
+			<a [routerLink]="['/headline/3']">
+				<img [src]="headlines[2]?.image">
+				<h6>{{headlines[2]?.date}}</h6>
+				<h4>{{headlines[2]?.name}}</h4>
+			</a>
+			</td>
+		</tr>
+		</tbody>
+	</table>
+
+	<table id="listed">
+		<a [routerLink]="['/headline/4']">
+		<tr>
+			<td class="imglisted">
+				<img [src]="headlines[3]?.image">
+			</td>
+			<td>
+				<h6>{{headlines[3]?.date}}</h6>
+				<h4>{{headlines[3]?.name}}</h4>
+			</td>
+		</tr>
+		</a>
+
+		<a [routerLink]="['/headline/5']">
+		<tr>
+			<td  class="imglisted">
+				<img [src]="headlines[4]?.image">
+			</td>
+			<td>
+				<h6>{{headlines[4]?.date}}</h6>
+				<h4>{{headlines[4]?.name}}</h4>
+			</td>
+		</tr>
+		</a>
+		
+		<a [routerLink]="['/headline/6']">
+		<tr>
+			<td  class="imglisted">
+				<img [src]="headlines[5]?.image">
+			</td>
+			<td>
+				<h6>{{headlines[5]?.date}}</h6>
+				<h4>{{headlines[5]?.name}}</h4>
+			</td>
+		</tr>
+		</a>
+		
+		<a [routerLink]="['/headline/7']">
+		<tr>
+			<td  class="imglisted">
+				<img [src]="headlines[6]?.image">
+			</td>
+			<td>
+				<h6>{{headlines[6]?.date}}</h6>
+				<h4>{{headlines[6]?.name}}</h4>
+			</td>
+		</tr>
+		</a>
+
+		<a [routerLink]="['/headline/8']">
+		<tr>
+			<td class="imglisted">
+				<img [src]="headlines[7]?.image">
+			</td>
+			<td>
+				<h6>{{headlines[7]?.date}}</h6>
+				<h4>{{headlines[7]?.name}}</h4>
+			</td>
+		</tr>
+		</a>
+	</table>

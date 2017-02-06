@@ -1,0 +1,22 @@
+<img src="../assets/dailyshow.png">
+
+<div id="listen">
+	<p>Listen<img src="../assets/play-icon.png"><span>Media options <img src="../assets/download-icon.png"></span></p>
+</div>
+
+<div id="dailydigest">
+	<img src="../assets/dailydigest.png">
+</div>
+
+
+<div id="specials">
+	<ul>
+	  <li *ngFor="let headline of headlines" (click)="onSelect(headline)" [routerLink]="['/headline', headline.id]">
+	  	<img [src]="headline.image" id="specialimg">
+	  	<div id="specialname">
+	  		<div id="specialreport"><span>SPECIAL REPORT</span></div>
+	  		<p>{{headline.name}}</p>
+	  	</div>
+	  </li>
+	</ul>
+</div>

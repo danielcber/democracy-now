@@ -1,0 +1,71 @@
+.container {
+	width: 95%;
+	margin-top: 10px;
+}
+
+.article {
+	
+}
+
+.article img, .article p, .article h2, .article h6 {
+	max-width: 100%;
+	height: auto;
+	margin: 0 0 5px 0;
+}
+
+.headlines {
+	background-color: #eee;
+}
+
+.headlines h4 {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+.headlines hr {
+	background-color: black;
+	color: black;
+	height: 2px;
+	margin: 0px 0 10px 0;
+}
+
+li {
+	list-style-type: none;
+	height: auto;
+	width: auto;
+	float: center;
+}
+
+li:hover {
+	color: #BE0E0E;
+}
+
+li img, li p {
+	max-height: auto;
+	max-width: 95%;
+	margin: 0 2.5% 20px 2.5%;
+	font-size: 13px;
+	text-align: center;
+}
+
+h1,h2, h3, h4, h5, h6 {
+	font-family: 'Bitter', serif;
+	color: #191F24;
+}
+
+h6{
+color: #BE0E0E;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+}
+
+#minihl {
+	font-weight: 700;
+	font-size: 12px;
+}
+
+.selected {
+	color: #BE0E0E;
+}

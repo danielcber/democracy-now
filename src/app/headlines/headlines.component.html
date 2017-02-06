@@ -1,0 +1,10 @@
+<div>
+	<ul class="headlines col-sm-2 col-md-2 col-lg-2">
+	<h4>HEADLINES</h4><hr>
+	  <li *ngFor="let headline of headlines" [class.selected]="headline === selectedHeadline" (click)="onSelect(headline)" [routerLink]="['/headline', headline.id]">
+	  	<p id="minihl">{{headline.name}}</p>
+	  </li>
+	</ul>
+</div>
+
+<sidebar class="col-sm-4 col-md-4 col-lg-4"> </sidebar>

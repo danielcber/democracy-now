@@ -1,0 +1,32 @@
+.article {
+	border-bottom-color: rgb(236, 238, 239);
+	border-bottom-style: solid;
+	border-bottom-width: 1px; 
+}
+
+.article img, .article p, .article h2, .article h6 {
+	max-width: 100%;
+	height: auto;
+	margin: 0 0 5px 0;
+}
+
+h1,h2, h3, h4, h5, h6 {
+	font-family: 'Bitter', serif;
+	color: #191F24;
+}
+
+h6 {
+color: #BE0E0E;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h2:hover, h4:hover {
+	color: #BE0E0E;
+}

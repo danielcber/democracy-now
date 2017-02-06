@@ -1,0 +1,11 @@
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<div class="article col-sm-6 col-md-6 col-lg-6" *ngIf="headline">
+	<div id="headline-detail">
+		<h2>{{headline.name}}</h2>
+		<h6>{{headline.date}}</h6>
+	  	<img [src]="headline.image">
+	  	<p [innerHTML]="headline.article"></p>
+	</div>
+	  	<contentlist></contentlist>
+</div>

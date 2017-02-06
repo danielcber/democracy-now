@@ -1,1 +1,119 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+	margin: 0;
+}
+
+header {
+	background-color: #191F24;
+	top: 0;
+	left: 0;
+}
+
+#header {
+	padding: 20px 5vw 20px 5vw;
+}
+
+#blockimg img {
+	height: 85px;
+}
+
+#blockimg {
+	height: 100px;
+	padding: 0px;
+}
+
+#navigation {
+	height: 100px;
+	width: 100%;
+	display: inline-block;
+}
+
+.block {
+	display: inline-block;
+	right: 0;
+}
+
+h1,h2, h3, h4, h5, h6 {
+	font-family: 'Roboto', sans-serif;
+}
+
+.row {
+	margin-top: -5px;
+}
+
+#main {
+	padding-top: 20px;
+	margin-left: -30px;
+	padding-left: 0px;
+	padding-right: -20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.primarynav {
+	padding-top: 10px;
+	display: inline-block;
+	margin-left: -20px;
+	font-weight: 700;
+
+}
+
+.primarynav li {
+	list-style-type: none;
+	display: inline-block;
+	color: white;
+	padding: 5px 15px 5px 0px;
+	font-size: 18px;
+}
+
+.primarynav li:hover {
+	color: #BE0E0E;
+}
+
+.dropdown-arrow {
+	width: 15px;
+	vertical-align: middle;
+	padding-left: 5px; 
+}
+
+.secondarynav {
+	display: inline-block;
+	float: right;
+}
+
+.secondarynav li {
+	list-style-type: none;
+	display: inline-block;
+	color: #A1A8AE;
+	font-size: 13px;
+	padding-left: 15px; 
+}
+
+.secondarynav li:hover {
+	color: #BE0E0E;
+}
+
+#globalnews {
+	margin-left: 20px;
+	font-size: 18px;
+	color: #A1A8AE;
+	font-weight: 700;
+}
+
+#donate {
+	background-color: #01AFEF;
+	width: 102.2px;
+	height: 65px;
+	border-style: none;
+	border-radius: 0px;
+	vertical-align: middle;
+	color: white;
+	margin-top: 20px;
+	font-family: 'Roboto', sans-serif;
+	float: right;
+	line-height: 1.2;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+#donate:hover {
+	background-color: #33BFF2;
+}
